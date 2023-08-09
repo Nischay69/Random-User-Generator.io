@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random user.io</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Random User Generator</h1>
+
+      <div class="main">
+        <div class="user-img"></div>
+        <div class="name"></div>
+        <div class="dob inf">
+          <img src="img/cal.svg" alt="" class="cal" />
+          <div class="dob-text"></div>
+        </div>
+        <div class="gender inf">
+          <img src="img/gender.png" alt="" class="cal" />
+          <div class="gender-text"></div>
+        </div>
+        <div class="country inf">
+          <img src="img/location.png" alt="" class="cal" />
+          <div class="location-text"></div>
+        </div>
+        <div class="phone inf">
+          <img src="img/phone.png" alt="" class="cal" />
+          <div class="phone-text"></div>
+        </div>
+        <div class="email inf">
+          <img src="img/email.png" alt="" class="cal" />
+          <div class="email-text"></div>
+        </div>
+        <div class="password inf">
+          <img src="img/pass.png" alt="" class="cal" />
+          <div class="password-text"></div>
+        </div>
+        <button class="generate-button" onclick="getRandomUser()">
+          <img src="img/img.svg" alt="error" class="generate-button-img" />
+          <div class="generate-button-text">Generate new user</div>
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
